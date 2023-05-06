@@ -20,6 +20,7 @@ const options = {
         if (options.defaultDate > chosenTime) { 
             buttonStart.setAttribute('disabled', 'disabled')
             Notify.warning('Please choose a date in the future');
+            return;
         } 
         if (options.defaultDate < chosenTime) { 
             buttonStart.removeAttribute('disabled', 'disabled');
