@@ -35,7 +35,7 @@ function startTimer() {
     setInterval(() => { 
         const currentTime = new Date();
         const differenceTime = chosenTime - currentTime; 
-        const resultTime = convertMs(difference)
+        const resultTime = convertMs(differenceTime)
 
 
         days.textContent = addPadStartZero(resultTime.days);
