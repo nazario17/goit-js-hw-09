@@ -34,7 +34,7 @@ buttonStart.addEventListener('click', startTimer)
 function startTimer() { 
     setInterval(() => { 
         const currentTime = new Date();
-        const difference = chosenTime - currentTime; 
+        const differenceTime = chosenTime - currentTime; 
         const resultTime = convertMs(difference)
 
 
